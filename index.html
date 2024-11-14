@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Vakansiya</title>
+  </head>
+  <body>
+    <div class="header-image">
+      <img class="" src="./images/header-bg.png" alt="" width="" height="168" />
+    </div>
+    <!-- FORM -->
+    <section class="form-section">
+      <div class="container">
+        <div class="form__wrapper">
+          <h2 class="form-title">Vakansiya ma'lumotlarini kiriting</h2>
+          <div class="form__wrap">
+            <form id="form">
+              <div class="input-box">
+                <h4 class="title">Logotip URL</h4>
+                <input
+                  type="text"
+                  id="input-url-image"
+                  placeholder="Logotip URL manzilini kiriting"
+                />
+              </div>
+              <div class="input-box">
+                <h4 class="title">Kompaniya nomi</h4>
+                <input
+                  type="text"
+                  id="input-company-name"
+                  placeholder="Manage"
+                />
+              </div>
+              <div class="checkbox-1">
+                <div class="checkbox-box">
+                  <label for="new">
+                    <input type="checkbox" id="new" value="NEW" /> New</label
+                  >
+                </div>
+                <div class="checkbox-box">
+                  <label for="featured">
+                    <input type="checkbox" id="featured" value="FEATURED" />
+                    Featured</label
+                  >
+                </div>
+              </div>
+              <div class="input-box">
+                <h4 class="title">Lavozim</h4>
+                <input type="text" id="input-job" placeholder="Lavozim" />
+              </div>
+              <div class="select">
+                <div class="select-box">
+                  <h4 class="title title-2">Vaqt</h4>
+                  <div class="arrow">
+                    <select id="day">
+                      <option disabled selected>Tanlang</option>
+                      <option>1d ago</option>
+                      <option>2d ago</option>
+                      <option>3d ago</option>
+                      <option>4d ago</option>
+                      <option>5d ago</option>
+                      <option>6d ago</option>
+                      <option>7d ago</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="select-box">
+                  <h4 class="title title-2">Ish turi</h4>
+                  <div class="arrow">
+                    <select id="time">
+                      <option disabled selected>Tanlang</option>
+                      <option>Full time</option>
+                      <option>Part time</option>
+                      <option>Contract</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="select-box">
+                  <h4 class="title title-2">Joylashuv</h4>
+                  <div class="arrow">
+                    <select id="country">
+                      <option disabled selected>Tanlang</option>
+                      <option>USA only</option>
+                      <option>Remote</option>
+                      <option>Worldwide</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <h4 class="title title-3">Ko'nikmalar</h4>
+              <div class="checkbox-2">
+                <div class="checkbox-box">
+                  <label for="fullstack">
+                    <input type="checkbox" id="fullstack" />
+                    Fullstack
+                  </label>
+                </div>
+                <div class="checkbox-box">
+                  <label for="midweight">
+                    <input type="checkbox" id="midweight" />
+                    Midweight
+                  </label>
+                </div>
+                <div class="checkbox-box">
+                  <label for="pyton">
+                    <input type="checkbox" id="pyton" /> Python
+                  </label>
+                </div>
+                <div class="checkbox-box">
+                  <label for="react">
+                    <input type="checkbox" id="react" /> React
+                  </label>
+                </div>
+              </div>
+              <button class="button" type="submit">Saqlash</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JOB CARD -->
+    <section class="job">
+      <div class="container">
+        <div class="job-wrapper"></div>
+      </div>
+    </section>
+    <!-- JS -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
