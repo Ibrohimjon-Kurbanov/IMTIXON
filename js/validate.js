@@ -59,5 +59,3 @@ export function validate(urlInput, nameInput, jobInput) {
 
   return true;
 }
-
-
